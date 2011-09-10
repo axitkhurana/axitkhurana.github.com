@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'AaarghNormal';
+    src: url('../fonts/aaargh/Aaargh-webfont.eot');
+    src: url('../fonts/aaargh/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aaargh/Aaargh-webfont.woff') format('woff'),
+         url('../fonts/aaargh/Aaargh-webfont.ttf') format('truetype'),
+         url('../fonts/aaargh/Aaargh-webfont.svg#AaarghNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ColaborateLightRegular';
+    src: url('../fonts/colablt/ColabLig-webfont.eot');
+    src: url('../fonts/colablt/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/colablt/ColabLig-webfont.woff') format('woff'),
+         url('../fonts/colablt/ColabLig-webfont.ttf') format('truetype'),
+         url('../fonts/colablt/ColabLig-webfont.svg#ColaborateLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-style: normal;
+	font-size:100%;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+#container {
+	height:231px;
+}
+h1 {
+	font-family: AaarghNormal;
+	font-size:2.5em;
+	color:#728581;
+}
+
+h2 {
+	font-family:ColaborateLightRegular;
+	font-size:1.25em;
+	color:#90cace;
+	text-transform:uppercase;
+}
+
+#main h2 {
+	margin-bottom:75.5px;
+}
+
+.right {
+	text-align:right;
+	margin-right:40px;
+}
+
+#list li{
+	font-family:ColaborateLightRegular;
+	text-transform:uppercase;
+	font-size:1em;
+	color:#728581;
+	margin-bottom:23px;
+}
+
+#list li:hover{
+	color:#90cace;
+}
