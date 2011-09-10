@@ -29,7 +29,9 @@ body {
 #container {
 	height:231px;
 	width:432px;
-	float:right
+	float:right;
+	margin-top:162px;
+	margin-right:85px;
 }
 h1 {
 	font-family: AaarghNormal;
