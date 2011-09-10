@@ -28,6 +28,8 @@ body {
 
 #container {
 	height:231px;
+	width:432px;
+	float:right
 }
 h1 {
 	font-family: AaarghNormal;
@@ -48,7 +50,7 @@ h2 {
 
 .right {
 	text-align:right;
-	margin-right:40px;
+	/*margin-right:40px;*/
 }
 
 #list li{
