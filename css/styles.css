@@ -66,3 +66,7 @@ h2 {
 #list li:hover{
 	color:#90cace;
 }
+
+.twitter-follow-button{
+    margin-bottom:40px;
+}
