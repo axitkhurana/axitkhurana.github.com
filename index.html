@@ -32,8 +32,9 @@ mixpanel.init("39f49553932f50ffc0f6361dfa366a58");</script><!-- end Mixpanel -->
                 </a>
 			</div>
 		</div>
-		<script type="text/javascript">
-			
+        <script type="text/javascript">
+            mixpanel.track("Landing page loaded")
+            mixpanel.track_links("#content ul a", "External Links", {'referrer': document.referrer });
 		</script>
 	</body>
 </html>
